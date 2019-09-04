@@ -25,14 +25,32 @@ end
 
 def my_hash_creator(key, value)
   hash = {key => value}
+<<<<<<< HEAD
+=======
+  hash["value"]
+>>>>>>> 11f96636eed27a5bdd3a778446ac1b166a201096
 end
 
 
 def read_from_hash(hash, key)
+<<<<<<< HEAD
   hash[key]
 end
 
 
+=======
+  hash = {}
+  key = []
+  key.fetch
+  # return the correct value using the hash and key parameters
+end
+
+
+
+
+
+
+>>>>>>> 11f96636eed27a5bdd3a778446ac1b166a201096
 def update_counting_hash(hash, key)
    if hash[key]
       hash[key] += 1
